@@ -8,29 +8,41 @@
 </head>
 <body>
     <header>
-        <h1>The Strongest Battlegrounds Tournament</h1>
+        <h1>Ultimate Battlegrounds Tournament</h1>
     </header>
     <main>
         <section id="tournament-info">
             <h2>Tournament Information</h2>
-            <p>Welcome to the official tournament for Ultimate Battlegrounds on Roblox. Compete to be the best in this exciting competition!</p>
+            <p>Welcome to the official tournament for The Strongest Battlegrounds on Roblox. Compete to be the best in this exciting competition!</p>
             <ul>
-                <li>Preliminary Rounds: Best out of 2</li>
-                <li>Semi-Finals: Best out of 3</li>
-                <li>Finals: Best out of 5</li>
+                <li>Preliminary Rounds: Best out of 5</li>
+                <li>Quarter-Finals: Best out of 3</li>
+                <li>Semi-Finals: Best out of 2</li>
+                <li>Finals: Best out of 1</li>
             </ul>
         </section>
         <section id="schedule">
             <h2>Schedule</h2>
             <ul>
-                <li>Friday 7:30 AM - 10:00 AM</li>
+                <li>Today: 6:30 PM - 8:00 PM</li>
+                <li>Tomorrow: 10:00 AM - 12:30 PM</li>
             </ul>
         </section>
+        <section id="registration">
+            <h2>Participant Registration</h2>
+            <form action="/submit_registration" method="post">
+                <label for="username">Roblox Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Register</button>
+            </form>
         </section>
         <section id="brackets">
             <h2>Match Brackets</h2>
             <div id="bracket-content">
                 <p>Brackets will be displayed here once the tournament begins.</p>
+                <img src="images/bracket_image.jpg" alt="Tournament Bracket" id="bracket-image">
             </div>
         </section>
         <section id="players">
