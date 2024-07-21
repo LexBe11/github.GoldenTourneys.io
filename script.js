@@ -1,5 +1,5 @@
 // Array of players
-const players = ['', 'lexicool1272', 'kingferdinand13'];
+const players = ['ggx7_71' 'lexicool1272', 'kingferdinand13', 'landdeb4', 'andyisbored', 'EL_FRED', 'Something', 'GabrielV4321'];
 
 // Function to display players
 function displayPlayers() {
